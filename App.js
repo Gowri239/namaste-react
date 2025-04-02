@@ -1,12 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Title = () => <h1>Namaste React</h1>;
-
 const HeadingComponent = function () {
   return (
     <div id="container">
-      <Title />
+      <h2>{100 + 500}</h2>
       <h1 className="heading">Namste function components</h1>
     </div>
   );

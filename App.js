@@ -1,17 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const title = <h1>Namaste React</h1>;
-
 const HeadingComponent = function () {
   return (
     <div id="container">
-      {title}
       <h1 className="heading">Namste function components</h1>
     </div>
   );
 };
 
+const title = (
+  <h1>
+    Namaste React
+    <HeadingComponent />
+  </h1>
+);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeadingComponent />);
+root.render(title);

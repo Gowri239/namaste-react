@@ -1,18 +1,14 @@
 import RestaurentCard from "./RestaurantCard";
+import resList from "../utils/mockData";
 
 const Body = () => {
   return (
     <div className="body">
       <div className="search">Search</div>
       <div className="res-container">
-        <RestaurentCard
-          resName="Meghana Foods"
-          cuisine="Biryani, South Indian Food, Asian"
-        />
-        <RestaurentCard
-          resName="KFC"
-          cuisine="Biryani, South Indian Food, Asian"
-        />
+        {resList.map((restaurant) => (
+          <RestaurentCard key={restaurant.data.id} resData={restaurant} />
+        ))}
       </div>
     </div>
   );

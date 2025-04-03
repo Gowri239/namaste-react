@@ -1,21 +1,87 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const HeadingComponent = function () {
+/**
+ *
+ * Header
+ *    - Logo
+ *    - Nav Items
+ * Body
+ *    - Search bar
+ *    - Restaurent cards
+ *        - Restaurent card
+ *            - Image
+ *            - Name of res, start rating , eta
+ * Footer
+ *    - CopyRights
+ *    - Links
+ *    - Address
+ *    - Contact
+ */
+
+const Header = () => {
   return (
-    <div id="container">
-      <h1 className="heading">Namste function components</h1>
+    <div className="header">
+      <div className="logo-container">
+        <img
+          className="logo"
+          src="https://thumbs.dreamstime.com/b/food-delivery-logo-design-template-fast-delivery-service-sign-food-delivery-app-vector-logo-design-template-167491511.jpg"
+        />
+      </div>
+      <div className="nav-items">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Cart</li>
+        </ul>
+      </div>
     </div>
   );
 };
 
-const title = (
-  <h1>
-    Namaste React
-    <HeadingComponent />
-  </h1>
-);
+const RestaurentCard = () => {
+  return (
+    <div className="res-card" style={{ backgroundColor: "#f0f0f0" }}>
+      <img
+        className="res-logo"
+        alt="Meghana Biryani"
+        src="https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/xqwpuhgnsaf18te7zvtv"
+      />
+      <h3>Meghana Foods</h3>
+      <h4>Biryani, South Indian Food, Asian</h4>
+      <h4>4.4 star</h4>
+      <h4>38 minutes</h4>
+    </div>
+  );
+};
+
+const Body = () => {
+  return (
+    <div className="body">
+      <div className="search">Search</div>
+      <div className="res-container">
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+      </div>
+    </div>
+  );
+};
+
+const AppLayout = () => {
+  return (
+    <div className="app">
+      <Header />
+      <Body />
+    </div>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(title);
+root.render(<AppLayout />);

@@ -1,5 +1,6 @@
 import RestaurentCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
+import Shimmer from "./shimmer";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
@@ -33,6 +34,10 @@ const Body = () => {
     console.log("restaurents", restaurants[0].info);
     setListOfRestaurants(transformedData);
   };
+
+  if (listOfRestaurants.length == 0) {
+    return <Shimmer />;
+  }
 
   return (
     <div className="body">

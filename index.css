@@ -48,8 +48,21 @@
 }
 
 .filter-btn {
-  margin: 10px;
   cursor: pointer;
+}
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.search-container {
+  margin: 0px 10px;
+}
+
+.search-input {
+  margin: 0px 10px;
 }
 
 .shimmer-container {

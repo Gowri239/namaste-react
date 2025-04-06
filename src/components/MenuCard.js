@@ -14,7 +14,6 @@ const MenuCard = () => {
   const fetchData = async () => {
     const resp = await fetch(MENU_URL + resId);
     const data = await resp.json();
-    console.log("data", data);
     setMenu(data);
   };
 

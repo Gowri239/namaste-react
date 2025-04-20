@@ -3,11 +3,14 @@ import { useState, useEffect } from "react";
 import Shimmer from "./shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { withPromotedLabel } from "./RestaurantCard";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [searchText, setSearchText] = useState("");
+
+  const RestaurentWithLabel = withPromotedLabel(RestaurentCard);
 
   useEffect(() => {
     fetchData();
@@ -90,7 +93,11 @@ const Body = () => {
       <div className="flex flex-wrap">
         {filteredRestaurants.map((restaurant) => (
           <Link to={"restaurant/" + restaurant.id} key={restaurant.id}>
-            <RestaurentCard resData={restaurant} />
+            {restaurant.rating > 4.2 ? (
+              <RestaurentWithLabel resData={restaurant} />
+            ) : (
+              <RestaurentCard resData={restaurant} />
+            )}
           </Link>
         ))}
       </div>

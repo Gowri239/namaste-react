@@ -18,6 +18,11 @@
   "homepage": "https://github.com/Gowri239/namaste-react#readme",
   "description": "",
   "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@testing-library/react": "^16.3.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
     "parcel": "^2.14.4"
   },
   "dependencies": {

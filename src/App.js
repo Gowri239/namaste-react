@@ -7,6 +7,8 @@ import Error from "./components/Error";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import MenuCard from "./components/MenuCard";
 import UserContext from "./utils/useContext";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
 
 const About = lazy(() => import("./components/About"));
 
@@ -22,10 +24,12 @@ const AppLayout = () => {
   }, []);
   return (
     <div className="app">
-      <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
-        <Header />
-        <Outlet />
-      </UserContext.Provider>
+      <Provider store={appStore}>
+        <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+          <Header />
+          <Outlet />
+        </UserContext.Provider>
+      </Provider>
     </div>
   );
 };

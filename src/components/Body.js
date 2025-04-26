@@ -1,14 +1,17 @@
 import RestaurentCard from "./RestaurantCard";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import Shimmer from "./shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { withPromotedLabel } from "./RestaurantCard";
+import UserContext from "../utils/useContext";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [searchText, setSearchText] = useState("");
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
 
   const RestaurentWithLabel = withPromotedLabel(RestaurentCard);
 
@@ -59,13 +62,13 @@ const Body = () => {
       <div className="flex items-center">
         <div className="m-4 p-4">
           <input
-            className="h-8 border border-solid border-black"
+            className="h-8 border border-solid border-black p-2"
             type="text"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
           <button
-            className="px-4 py-1 bg-green-100 m-4 rounded-lg"
+            className="px-4 py-1 bg-green-100 m-4 rounded-lg cursor-pointer"
             onClick={() => {
               const searchRestaurants = listOfRestaurants.filter((res) =>
                 res.name.toLowerCase().includes(searchText.toLocaleLowerCase())
@@ -78,7 +81,7 @@ const Body = () => {
         </div>
         <div>
           <button
-            className="px-4 py-1 bg-gray-200 rounded-lg"
+            className="px-4 py-1 bg-gray-200 rounded-lg cursor-pointer"
             onClick={() => {
               const filRestaurants = filteredRestaurants.filter(
                 (restaurant) => restaurant.rating > 4.3
@@ -88,6 +91,15 @@ const Body = () => {
           >
             Top rated Restaurants
           </button>
+        </div>
+        <div className="m-4 p-4">
+          user name:
+          <input
+            className="border border-solid border-black p-2 h-8 cursor-pointer"
+            type="text"
+            value={loggedInUser}
+            onChange={(e) => setUserName(e.target.value)}
+          />
         </div>
       </div>
       <div className="flex flex-wrap">

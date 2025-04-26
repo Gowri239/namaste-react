@@ -1,4 +1,5 @@
 import React from "react";
+import UserContext from "../utils/useContext";
 
 class UserCard extends React.Component {
   constructor(props) {
@@ -15,6 +16,9 @@ class UserCard extends React.Component {
 
     return (
       <div>
+        <UserContext.Consumer>
+          {({ loggedInUser }) => <h1>{loggedInUser}</h1>}
+        </UserContext.Consumer>
         <h1>Count: {count}</h1>
         <button
           onClick={() => {

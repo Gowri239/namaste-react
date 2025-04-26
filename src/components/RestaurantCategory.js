@@ -1,11 +1,8 @@
-import { useState } from "react";
 import ItemList from "./ItemList";
 
-const RestaurantCategory = ({ category }) => {
-  const [showItems, setShowItems] = useState(false);
-
+const RestaurantCategory = ({ category, showItems, handleAccordian }) => {
   const handleClick = () => {
-    setShowItems(!showItems);
+    handleAccordian();
   };
   return (
     <div>

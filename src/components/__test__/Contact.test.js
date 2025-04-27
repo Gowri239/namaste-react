@@ -2,42 +2,45 @@ import { render, screen } from "@testing-library/react";
 import Contact from "../Contact";
 import "@testing-library/jest-dom";
 
-test("Should load heading inside contact component", () => {
-  render(<Contact />);
+// group test cases
+describe("Contact us page test cases", () => {
+  test("Should load heading inside contact component", () => {
+    render(<Contact />);
 
-  const heading = screen.getByRole("heading");
+    const heading = screen.getByRole("heading");
 
-  expect(heading).toBeInTheDocument();
-});
+    expect(heading).toBeInTheDocument();
+  });
 
-test("Should load button inside contact component", () => {
-  render(<Contact />);
+  test("Should load button inside contact component", () => {
+    render(<Contact />);
 
-  const button = screen.getByRole("button");
+    const button = screen.getByRole("button");
 
-  expect(button).toBeInTheDocument();
-});
+    expect(button).toBeInTheDocument();
+  });
 
-test("Should load input elements inside contact component", () => {
-  render(<Contact />);
+  test("Should load input elements inside contact component", () => {
+    render(<Contact />);
 
-  const inputs = screen.getAllByRole("textbox");
+    const inputs = screen.getAllByRole("textbox");
 
-  expect(inputs.length).toBe(2);
-});
+    expect(inputs.length).toBe(2);
+  });
 
-test("Should load name input element inside contact component", () => {
-  render(<Contact />);
+  test("Should load name input element inside contact component", () => {
+    render(<Contact />);
 
-  const inputName = screen.getByPlaceholderText("Name");
+    const inputName = screen.getByPlaceholderText("Name");
 
-  expect(inputName).toBeInTheDocument();
-});
+    expect(inputName).toBeInTheDocument();
+  });
 
-test("Should load submit button inside contact component", () => {
-  render(<Contact />);
+  test("Should load submit button inside contact component", () => {
+    render(<Contact />);
 
-  const submitButton = screen.getByText("Submit");
+    const submitButton = screen.getByText("Submit");
 
-  expect(submitButton).toBeInTheDocument();
+    expect(submitButton).toBeInTheDocument();
+  });
 });

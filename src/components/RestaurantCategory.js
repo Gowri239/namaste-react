@@ -1,4 +1,4 @@
-import ItemList from "./ItemList";
+import ItemList from "./itemList";
 
 const RestaurantCategory = ({ category, showItems, handleAccordian }) => {
   const handleClick = () => {

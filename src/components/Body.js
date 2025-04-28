@@ -62,6 +62,7 @@ const Body = () => {
       <div className="flex items-center">
         <div className="m-4 p-4">
           <input
+            data-testid="searchInput"
             className="h-8 border border-solid border-black p-2"
             type="text"
             value={searchText}
@@ -89,7 +90,7 @@ const Body = () => {
               setFilteredRestaurants(filRestaurants);
             }}
           >
-            Top rated Restaurants
+            Top Rated Restaurants
           </button>
         </div>
         <div className="m-4 p-4">

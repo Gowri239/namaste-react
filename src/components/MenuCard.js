@@ -7,7 +7,7 @@ import RestaurantCategory from "./RestaurantCategory";
 const MenuCard = () => {
   const { resId } = useParams();
   const menu = useRestaurantMenu(resId);
-  const [showIndex, setShowIndex] = useState(0);
+  const [showIndex, setShowIndex] = useState(null);
 
   const handleAccordian = (index) => {
     if (index === showIndex) {

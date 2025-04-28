@@ -1,0 +1,2609 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Go Zero Ice Creams & Desserts",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "657372",
+              "name": "Go Zero Ice Creams & Desserts",
+              "city": "Bangalore",
+              "slugs": {
+                "restaurant": "go-zero-guilt-free-ice-creams-katriguppe-bangalore",
+                "city": "bangalore"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/19/d5c89659-7a63-4b3c-95c1-acb15eca2d0e_657372.JPG",
+              "locality": "KATHRIGUPPE",
+              "areaName": "Banashankari",
+              "costForTwo": "15000",
+              "costForTwoMessage": "₹150 for two",
+              "cuisines": ["Ice Cream", "Desserts"],
+              "avgRating": 4.3,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "657372",
+                "fees": [{}]
+              },
+              "parentId": "343689",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "160 ratings",
+              "sla": {
+                "restaurantId": "657372",
+                "deliveryTime": 37,
+                "minDeliveryTime": 35,
+                "maxDeliveryTime": 40,
+                "lastMileTravel": 7.2,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_IT_IS_LONG_DISTANCE",
+                "zoneId": 32,
+                "slaString": "35-40 MINS",
+                "lastMileTravelString": "7.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-28 23:59:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "FLAT125 off",
+                "shortDescriptionList": [
+                  {
+                    "discountType": "BXGY",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT125 off | Use FLATDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "discountType": "BXGY",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT125 off | Use FLATDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "go-zero-guilt-free-ice-creams-katriguppe-bangalore",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Rebel Foods Private Limited,NEW NO.43,OLD NO.7-1,KATTA SUBRAMANYA NAIDU,KATHRIGUPPE - 560085"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Ice Cream,Desserts"
+                }
+              ],
+              "totalRatings": 160,
+              "aggregatedDiscountInfoV2": {
+                "header": "FLAT125 off",
+                "shortDescriptionList": [
+                  {
+                    "discountType": "BXGY",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT125 off | Use FLATDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "discountType": "BXGY",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT125 off | Use FLATDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "priority": 1,
+                  "couponCode": "BUY1GET1",
+                  "discountInfo": {
+                    "discountType": "BXGY",
+                    "value": 100
+                  },
+                  "minItemCount": 1,
+                  "maxItemCount": 2,
+                  "type": "B1G1",
+                  "nudgeTagInfo": {
+                    "title": "'Buy 1 Get 1'",
+                    "textColor": "#ffffff",
+                    "backgroundColor": "#753428",
+                    "separatorColor": "#E44629",
+                    "fontName": "FONT_NAME_CONDENSED_BOLD"
+                  },
+                  "styling": {
+                    "backgroundColor": "#2C1F1D",
+                    "textColor": "#B3FFFFFF"
+                  },
+                  "logoCtx": {}
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/657372"
+              },
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "hasBestsellerItems": true,
+              "hasGuiltfreeItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "12.93078,77.55441",
+              "backgroundImageOverlayInfo": {},
+              "featuredSectionInfo": {}
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "BUY 1 GET 1 FREE",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE BUY1GET1",
+                      "description": "ON SELECT ITEMS",
+                      "offerType": "offers",
+                      "restId": "657372",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE BUY1GET1"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹125 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["291605c4-093d-41db-a84e-2420ab3b74c2"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLATDEAL",
+                      "description": "ABOVE ₹449",
+                      "offerType": "offers",
+                      "restId": "657372",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLATDEAL"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹150 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["220a7d38-c921-435d-bdda-4ea3ca6ea25d"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAT150",
+                      "description": "ABOVE ₹599",
+                      "offerType": "offers",
+                      "restId": "657372",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLAT150"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 30% OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["33b188f9-494f-4ec4-b2c0-72cc2e63aa09"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE PARTY",
+                      "description": "ABOVE ₹1100",
+                      "offerType": "offers",
+                      "restId": "657372",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE PARTY"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹25 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/31/7e6e642d-f83e-4e02-b302-e850c00c3cc7_BHIMMenuVisibilityLogo1.png",
+                      "offerIds": ["f7a5e99c-1612-4469-9d19-d55c39393acb"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "NO CODE REQUIRED",
+                      "description": "ABOVE ₹299",
+                      "offerType": "offers",
+                      "restId": "657372",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/31/7e6e642d-f83e-4e02-b302-e850c00c3cc7_BHIMMenuVisibilityLogo1.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "NO CODE REQUIRED"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "offersFilter": {
+                        "attributes": {
+                          "displayText": "Buy 1 Get 1"
+                        }
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                      "title": "Top Picks",
+                      "carousel": [
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "4655785",
+                          "creativeId": "TopPicks/BeDCho1",
+                          "title": "Belgian Dark Chocolate (500 ml)",
+                          "description": "  ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "156548490",
+                              "name": "Belgian Dark Chocolate (500 ml)",
+                              "category": "Tubs (500 ml)",
+                              "description": "Scoop, smile, repeat! With just 97 calories per serving, this zero-sugar, low-cal treat is all the rich, chocolatey bliss - none of the guilt!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/8bbfd231-f0f3-4dd2-9f5e-35b4019b7dcb_a66ccff6-aed0-4867-b1bc-d176fac1d93d.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "4655836",
+                          "creativeId": "TopPicks/MoFBro2",
+                          "title": "Mocha Fudge Brownie (500 ml)",
+                          "description": "  ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "156548500",
+                              "name": "Mocha Fudge Brownie (500 ml)",
+                              "category": "Tubs (500 ml)",
+                              "description": "Fuel your fudge cravings with zero sugar, and just 99 calories per serving! Sweet, rich, and guilt-free - because why not have it all",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/24/8045c3e0-00f5-433a-9c4f-048261df2ff8_0f56751e-72aa-48ca-8881-19d4760c5fba.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 40300,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "4656161",
+                          "creativeId": "TopPicks/MaChB4",
+                          "title": "Madagascar Chocolate Bar (70 ml)",
+                          "description": "  ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "136053754",
+                              "name": "Madagascar Chocolate Bar (70 ml)",
+                              "category": "Ice Cream Bars",
+                              "description": "Indulge in the rich, smooth goodness of Madagascar chocolate - zero sugar, low-cal, and totally guilt-free! Perfect for satisfying your chocolate cravings anytime.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/42bf5dc9-b828-4eb1-9705-b2c07c50e788_5ea6eab0-543b-4868-b7fa-a67e42d24592.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "4656191",
+                          "creativeId": "TopPicks/SiSitap5",
+                          "title": "Simply Sitaphal (100 ml)",
+                          "description": "  ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "156548479",
+                              "name": "Simply Sitaphal (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Creamy, dreamy, and oh-so-sitaphal! Just 83 calories per 100ml, zero sugar, and packed with guilt-free goodness.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/e8d847db-ad73-49be-a799-18ad099521e6_404655ee-8823-494e-8441-80b8e5f739f9.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136053752",
+                              "name": "Cold Brew Coffee (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Treat yourself to healthy, Zero Sugar Coffee Scoops - irresistibly addictive, just 75 calories per 100ml, for a guilt-free, low-calorie indulgence.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/2bddbee3-a8bd-43b2-adaf-9871b0cc7d68_9f0c7509-cd4c-4ea3-9932-467d1edaf440.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136053750",
+                              "name": "Mad Over Mango (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Go mad for mangoes with this Alphonso-packed treat - zero sugar, only 67 calories per 100ml, and pure sunshine in every scoop!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/7aec692b-36e7-4b4e-acea-482b20847da1_8122297d-34b1-48fd-b35a-43e1bc30825d.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136053749",
+                              "name": "Belgian Dark Chocolate (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Why settle for ordinary when you can have Belgian Dark Chocolate.Zero sugar, only 97 calories per 100ml, and 100% guilt-free. Go ahead, break the calorie code!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/a84d4941-a15c-475a-959e-07733e7450dc_73496974-1c4f-4776-8820-803fffdc12d9.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.6",
+                                  "ratingCount": "20 ratings",
+                                  "ratingCountV2": "20"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "155111455",
+                              "name": "Blueberry Cheesecake (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "A creamy swirl of cheesecake and tangy blueberry - zero sugar, just 91 calories, and pure indulgence in every bite!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/32fde643-fb7d-40fa-888a-ffa38598f007_29e4c943-8080-4c2a-bf47-b0d1b7973f20.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156548479",
+                              "name": "Simply Sitaphal (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Creamy, dreamy, and oh-so-sitaphal! Just 83 calories per 100ml, zero sugar, and packed with guilt-free goodness.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/e8d847db-ad73-49be-a799-18ad099521e6_404655ee-8823-494e-8441-80b8e5f739f9.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "158753586",
+                              "name": "French Vanilla (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Your favourite classic just got even more classy! Keep it classic with the smooth charm of French Vanilla - zero sugar, just 91 calories per 500ml, and packed with timeless vibes!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/763da881-af48-4d8e-9a38-1f4805f18510_6d3d0f58-057a-46ae-abae-1257f130da08.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "158753590",
+                              "name": "Roasted Almond (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Get your crunch on with the nutty bliss of roasted almonds - zero sugar, just 99 calories per 500ml, and all kinds of wholesome!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/f786ed47-dc62-4472-acab-a894315cce6f_0fafaa7d-85cc-4469-8fab-a98ca4f0a5ee.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "158127889",
+                              "name": "Butterscotch Caramel Cone",
+                              "category": "Ice Cream Cones",
+                              "description": "Crunch into the perfect combo - creamy butterscotch, gooey caramel, and a crispy waffle cone, all for just 159 calories. Zero sugar, all the joy!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/24/0e0cb742-d351-42f3-82db-c5770077b177_232968b2-3b75-4ab3-ba33-6da9e1f53ea1.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "158127891",
+                              "name": "Ultimate Strawberry Cone",
+                              "category": "Ice Cream Cones",
+                              "description": "Sway into strawberry heaven - creamy, zero sugar, and packed in a crispy waffle cone. All the fruity indulgence you crave for just 149 calories!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/66046e77-0595-4b61-a185-36685eefd673_7ca4bddd-41d9-420a-b9d0-5fe00c66eacf.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "158127893",
+                              "name": "Vanilla Choco Fudge Cone",
+                              "category": "Ice Cream Cones",
+                              "description": "Classic vanilla meets a chocolaty twist, all in a crispy waffle cone - just 159 calories of pure, fudgy joy!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/1bdea7d4-d223-4b87-a536-78082b5e8207_ed7508aa-bdef-40cd-9552-f48bbde2c652.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156548490",
+                              "name": "Belgian Dark Chocolate (500 ml)",
+                              "category": "Tubs (500 ml)",
+                              "description": "Scoop, smile, repeat! With just 97 calories per serving, this zero-sugar, low-cal treat is all the rich, chocolatey bliss - none of the guilt!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/8bbfd231-f0f3-4dd2-9f5e-35b4019b7dcb_a66ccff6-aed0-4867-b1bc-d176fac1d93d.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156548493",
+                              "name": "Mad Over Mango (500 ml)",
+                              "category": "Tubs (500 ml)",
+                              "description": "Indulge guilt-free and sugar-free in the most-loved mango season, now available year-round, with just 72 calories per serving!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/50800536-afaa-453a-b92b-73b1a580a13f_4ab7fffb-fe74-4a56-b08c-61a344515b37.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156548498",
+                              "name": "Simply Sitaphal (500 ml)",
+                              "category": "Tubs (500 ml)",
+                              "description": "Dive into Sitaphal delight - zero sugar, 83 calories per serving and pure guilt-free bliss in every bite!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/1c75a7b8-3d0b-4e57-8417-7557ae2adfb9_494c535f-dfcd-4964-9387-0e01d0024732.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156548500",
+                              "name": "Mocha Fudge Brownie (500 ml)",
+                              "category": "Tubs (500 ml)",
+                              "description": "Fuel your fudge cravings with zero sugar, and just 99 calories per serving! Sweet, rich, and guilt-free - because why not have it all",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/24/8045c3e0-00f5-433a-9c4f-048261df2ff8_0f56751e-72aa-48ca-8881-19d4760c5fba.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 40300,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136053758",
+                              "name": "Hazelnut Chocolate Bar (70 ml)",
+                              "category": "Ice Cream Bars",
+                              "description": "Hazelnuts, cocoa, and zero sugar walk into a freezer... and create the ultimate keto treat! Just 4g net carbs, low-cal, and all the creamy, nutty bliss you have been waiting for!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/ca4229a8-a56f-4564-bca1-4d5169347dbc_f9c8ae06-9cdb-4503-856a-5cfd8e00bb56.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136053754",
+                              "name": "Madagascar Chocolate Bar (70 ml)",
+                              "category": "Ice Cream Bars",
+                              "description": "Indulge in the rich, smooth goodness of Madagascar chocolate - zero sugar, low-cal, and totally guilt-free! Perfect for satisfying your chocolate cravings anytime.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/42bf5dc9-b828-4eb1-9705-b2c07c50e788_5ea6eab0-543b-4868-b7fa-a67e42d24592.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "18 ratings",
+                                  "ratingCountV2": "18"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "140865433",
+                              "name": "Madagascar Bar (Pack Of 2)",
+                              "category": "Most Loved Combos",
+                              "description": "Enjoy a pack of 2 Madagascar Chocolate Bars (70 ML). Healthy, zero sugar, and low calorie. Indulge in rich, smooth chocolate without guilt.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/996a3cdf-78dd-4f3c-9f90-2de0fb9e9011_a71a4925-11e5-449c-920e-ae79c7093b1b.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "140865435",
+                              "name": "Mad Over Mango (Pack of 2)",
+                              "category": "Most Loved Combos",
+                              "description": "Enjoy the refreshing taste of Mad Over Mango Pack of 2. Healthy, zero sugar, and low calorie. Indulge in real mango goodness for a guilt-free treat.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/e499dbea-034e-4413-a614-383acfe2d21c_1d33f8ef-ceff-4576-8143-12559bd154bc.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 20300,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "140865437",
+                              "name": "Belgian Dark Chocolate (Pack of 2)",
+                              "category": "Most Loved Combos",
+                              "description": "Experience the rich indulgence of Belgian Dark Chocolate Pack of 2. Healthy, zero sugar, and low calorie. Satisfy your cravings guilt-free with this decadent treat.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/e460acc1-febf-43e4-9446-68d708bfea84_7e23842e-06d1-450a-a813-3d85f9210911.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 20300,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "150599960",
+                              "name": "Hazelnut Chocolate Bar (Pack of 2)",
+                              "category": "Most Loved Combos",
+                              "description": "Savor the healthy Hazelnut Chocolate Bar Pack of 2 Ice Cream - just 209 calories, with zero sugar and 5g of protein, offering a guilt-free indulgence in nutritious, low-calorie delight",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/0b1551cb-bffb-4c0e-a2f3-1313e6079abe_5baa4160-bbc6-4619-b9c9-28246a742433.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED",
+                      "subtitleSuffix": {},
+                      "categoryId": "-1"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Cups (100 ml)",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136053752",
+                              "name": "Cold Brew Coffee (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Treat yourself to healthy, Zero Sugar Coffee Scoops - irresistibly addictive, just 75 calories per 100ml, for a guilt-free, low-calorie indulgence.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/2bddbee3-a8bd-43b2-adaf-9871b0cc7d68_9f0c7509-cd4c-4ea3-9932-467d1edaf440.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136053750",
+                              "name": "Mad Over Mango (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Go mad for mangoes with this Alphonso-packed treat - zero sugar, only 67 calories per 100ml, and pure sunshine in every scoop!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/7aec692b-36e7-4b4e-acea-482b20847da1_8122297d-34b1-48fd-b35a-43e1bc30825d.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136053749",
+                              "name": "Belgian Dark Chocolate (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Why settle for ordinary when you can have Belgian Dark Chocolate.Zero sugar, only 97 calories per 100ml, and 100% guilt-free. Go ahead, break the calorie code!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/a84d4941-a15c-475a-959e-07733e7450dc_73496974-1c4f-4776-8820-803fffdc12d9.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.6",
+                                  "ratingCount": "20 ratings",
+                                  "ratingCountV2": "20"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "155111455",
+                              "name": "Blueberry Cheesecake (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "A creamy swirl of cheesecake and tangy blueberry - zero sugar, just 91 calories, and pure indulgence in every bite!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/32fde643-fb7d-40fa-888a-ffa38598f007_29e4c943-8080-4c2a-bf47-b0d1b7973f20.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156548479",
+                              "name": "Simply Sitaphal (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Creamy, dreamy, and oh-so-sitaphal! Just 83 calories per 100ml, zero sugar, and packed with guilt-free goodness.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/e8d847db-ad73-49be-a799-18ad099521e6_404655ee-8823-494e-8441-80b8e5f739f9.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "158753586",
+                              "name": "French Vanilla (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Your favourite classic just got even more classy! Keep it classic with the smooth charm of French Vanilla - zero sugar, just 91 calories per 500ml, and packed with timeless vibes!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/763da881-af48-4d8e-9a38-1f4805f18510_6d3d0f58-057a-46ae-abae-1257f130da08.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "158753590",
+                              "name": "Roasted Almond (100 ml)",
+                              "category": "Cups (100 ml)",
+                              "description": "Get your crunch on with the nutty bliss of roasted almonds - zero sugar, just 99 calories per 500ml, and all kinds of wholesome!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/f786ed47-dc62-4472-acab-a894315cce6f_0fafaa7d-85cc-4469-8fab-a98ca4f0a5ee.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/2bddbee3-a8bd-43b2-adaf-9871b0cc7d68_9f0c7509-cd4c-4ea3-9932-467d1edaf440.jpeg",
+                      "categoryId": "46393001"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Ice Cream Cones",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "158127889",
+                              "name": "Butterscotch Caramel Cone",
+                              "category": "Ice Cream Cones",
+                              "description": "Crunch into the perfect combo - creamy butterscotch, gooey caramel, and a crispy waffle cone, all for just 159 calories. Zero sugar, all the joy!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/24/0e0cb742-d351-42f3-82db-c5770077b177_232968b2-3b75-4ab3-ba33-6da9e1f53ea1.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "158127891",
+                              "name": "Ultimate Strawberry Cone",
+                              "category": "Ice Cream Cones",
+                              "description": "Sway into strawberry heaven - creamy, zero sugar, and packed in a crispy waffle cone. All the fruity indulgence you crave for just 149 calories!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/66046e77-0595-4b61-a185-36685eefd673_7ca4bddd-41d9-420a-b9d0-5fe00c66eacf.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "158127893",
+                              "name": "Vanilla Choco Fudge Cone",
+                              "category": "Ice Cream Cones",
+                              "description": "Classic vanilla meets a chocolaty twist, all in a crispy waffle cone - just 159 calories of pure, fudgy joy!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/1bdea7d4-d223-4b87-a536-78082b5e8207_ed7508aa-bdef-40cd-9552-f48bbde2c652.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/24/0e0cb742-d351-42f3-82db-c5770077b177_232968b2-3b75-4ab3-ba33-6da9e1f53ea1.jpeg",
+                      "categoryId": "56442764"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Tubs (500 ml)",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156548490",
+                              "name": "Belgian Dark Chocolate (500 ml)",
+                              "category": "Tubs (500 ml)",
+                              "description": "Scoop, smile, repeat! With just 97 calories per serving, this zero-sugar, low-cal treat is all the rich, chocolatey bliss - none of the guilt!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/8bbfd231-f0f3-4dd2-9f5e-35b4019b7dcb_a66ccff6-aed0-4867-b1bc-d176fac1d93d.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156548493",
+                              "name": "Mad Over Mango (500 ml)",
+                              "category": "Tubs (500 ml)",
+                              "description": "Indulge guilt-free and sugar-free in the most-loved mango season, now available year-round, with just 72 calories per serving!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/50800536-afaa-453a-b92b-73b1a580a13f_4ab7fffb-fe74-4a56-b08c-61a344515b37.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156548498",
+                              "name": "Simply Sitaphal (500 ml)",
+                              "category": "Tubs (500 ml)",
+                              "description": "Dive into Sitaphal delight - zero sugar, 83 calories per serving and pure guilt-free bliss in every bite!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/1c75a7b8-3d0b-4e57-8417-7557ae2adfb9_494c535f-dfcd-4964-9387-0e01d0024732.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 36000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ],
+                              "offerIds": [
+                                "a6a55eca-1cf5-4cb3-8d36-94430a4ed6ba"
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "156548500",
+                              "name": "Mocha Fudge Brownie (500 ml)",
+                              "category": "Tubs (500 ml)",
+                              "description": "Fuel your fudge cravings with zero sugar, and just 99 calories per serving! Sweet, rich, and guilt-free - because why not have it all",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/24/8045c3e0-00f5-433a-9c4f-048261df2ff8_0f56751e-72aa-48ca-8881-19d4760c5fba.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 40300,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/8bbfd231-f0f3-4dd2-9f5e-35b4019b7dcb_a66ccff6-aed0-4867-b1bc-d176fac1d93d.jpeg",
+                      "categoryId": "52931537"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Ice Cream Bars",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136053758",
+                              "name": "Hazelnut Chocolate Bar (70 ml)",
+                              "category": "Ice Cream Bars",
+                              "description": "Hazelnuts, cocoa, and zero sugar walk into a freezer... and create the ultimate keto treat! Just 4g net carbs, low-cal, and all the creamy, nutty bliss you have been waiting for!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/ca4229a8-a56f-4564-bca1-4d5169347dbc_f9c8ae06-9cdb-4503-856a-5cfd8e00bb56.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "136053754",
+                              "name": "Madagascar Chocolate Bar (70 ml)",
+                              "category": "Ice Cream Bars",
+                              "description": "Indulge in the rich, smooth goodness of Madagascar chocolate - zero sugar, low-cal, and totally guilt-free! Perfect for satisfying your chocolate cravings anytime.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/42bf5dc9-b828-4eb1-9705-b2c07c50e788_5ea6eab0-543b-4868-b7fa-a67e42d24592.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "18 ratings",
+                                  "ratingCountV2": "18"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/ca4229a8-a56f-4564-bca1-4d5169347dbc_f9c8ae06-9cdb-4503-856a-5cfd8e00bb56.jpeg",
+                      "categoryId": "48057998"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Most Loved Combos",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "140865433",
+                              "name": "Madagascar Bar (Pack Of 2)",
+                              "category": "Most Loved Combos",
+                              "description": "Enjoy a pack of 2 Madagascar Chocolate Bars (70 ML). Healthy, zero sugar, and low calorie. Indulge in rich, smooth chocolate without guilt.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/996a3cdf-78dd-4f3c-9f90-2de0fb9e9011_a71a4925-11e5-449c-920e-ae79c7093b1b.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "140865435",
+                              "name": "Mad Over Mango (Pack of 2)",
+                              "category": "Most Loved Combos",
+                              "description": "Enjoy the refreshing taste of Mad Over Mango Pack of 2. Healthy, zero sugar, and low calorie. Indulge in real mango goodness for a guilt-free treat.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/e499dbea-034e-4413-a614-383acfe2d21c_1d33f8ef-ceff-4576-8143-12559bd154bc.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 20300,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "140865437",
+                              "name": "Belgian Dark Chocolate (Pack of 2)",
+                              "category": "Most Loved Combos",
+                              "description": "Experience the rich indulgence of Belgian Dark Chocolate Pack of 2. Healthy, zero sugar, and low calorie. Satisfy your cravings guilt-free with this decadent treat.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/e460acc1-febf-43e4-9446-68d708bfea84_7e23842e-06d1-450a-a813-3d85f9210911.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 20300,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "150599960",
+                              "name": "Hazelnut Chocolate Bar (Pack of 2)",
+                              "category": "Most Loved Combos",
+                              "description": "Savor the healthy Hazelnut Chocolate Bar Pack of 2 Ice Cream - just 209 calories, with zero sugar and 5g of protein, offering a guilt-free indulgence in nutritious, low-calorie delight",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/0b1551cb-bffb-4c0e-a2f3-1313e6079abe_5baa4160-bbc6-4619-b9c9-28246a742433.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                                }
+                              ]
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/23/996a3cdf-78dd-4f3c-9f90-2de0fb9e9011_a71a4925-11e5-449c-920e-ae79c7093b1b.png",
+                      "categoryId": "54928866"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 21225007000770"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Go Zero Ice Creams & Desserts",
+                      "area": "Banashankari",
+                      "completeAddress": "Rebel Foods Private Limited,NEW NO.43,OLD NO.7-1,KATTA SUBRAMANYA NAIDU,KATHRIGUPPE - 560085"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "88f62653-d35c-480c-a546-a1522a8b7144",
+  "sid": "ka937edd-2991-4ed2-83c5-94859cb8752c",
+  "deviceId": "55415d58-2e49-8142-a855-8ef63f26f4f5",
+  "csrfToken": "tYLF5Vk6PThr-r6t_niDSeywUdCSgLEaeHBoMhuE"
+}
